@@ -9,8 +9,8 @@ def get_default_config():
         ),
         training=dict(
             epoch=500,
-            lambda1=0.001,  # 1
-            lambda2=0.001,  # 0.01
+            lambda1=0.001,
+            lambda2=0.001, 
         ),
         cd=dict(
             region_num=836,
